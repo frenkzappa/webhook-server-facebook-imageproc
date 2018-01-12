@@ -4,7 +4,7 @@ var express = require('express');
 var request = require('request');
 var bodyParser = require('body-parser');
 var webhookUtil = require('./bots-js-utils/webhook/webhookUtil.js');
-var quagga = require('./quagga.js');
+var quagga = require('quagga');
 
 
 var FBlib = require('./FBLib.js');

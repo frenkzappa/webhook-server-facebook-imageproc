@@ -8,7 +8,8 @@
     "body-parser": "*",
     "request": "*",
     "crypto": "*",
-    "underscore": "*"
+    "underscore": "*",
+    "quagga": "*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
