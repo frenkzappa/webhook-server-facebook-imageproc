@@ -16,7 +16,7 @@ var botURL = "http://140.86.14.175:8080/botsui/(botId:C4C4224A-1D0A-4CC7-8A54-62
 var botID = "C4C4224A-1D0A-4CC7-8A54-623BDC48588B";
 //USEFUL LINK -----> https://developers.facebook.com/docs/messenger-platform/getting-started/webhook-setup
 
-var facebook_webhook = "https://4b08de95.ngrok.io/webhook";
+var facebook_webhook = "https://mediaset-imagebarcode.herokuapp.com/webhook";
 var webhook_verify_token = "123456789";
 var PAGE_ACCESS_TOKEN = "EAAFZAxQMdhuQBAC7EsnmYjnIP9COQjsBQbdvlGS35UgroSSpHXlnlBw660hud3ajZAY09dH4eUmDQY9LEAkriqNCDUZBCZBdFpy7ZCAmut95VnBvvnzYo0YMfQqUZA4wOQVRRwwNZAkyYLXLWBBGrSoxZBiASKjPHKTopa4wh4dgZAFL1xi54c6x8";
 var PAGE_SECRET_KEY = "e01580964b27d3b4d20a8066eab03652";
@@ -177,7 +177,7 @@ app.get('/webhook', (req, res) => {
 		//console.log("FROM BOT TO USER: " + JSON.stringify(req.body.text));		
 		//if (req.body.text) {
 		if (req.body.text && !(req.body.choices)) {
-			//console.log("Hey you entered a simple TEXT response");
+			console.log("Hey you entered a simple TEXT response");
 			var botReply = {
 				"object": "page",
 				 "entry": [
