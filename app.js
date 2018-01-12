@@ -1,10 +1,11 @@
+
 //Module declaration
 //var Slack = require('slack-node');
 var express = require('express');
 var request = require('request');
 var bodyParser = require('body-parser');
 var webhookUtil = require('./bots-js-utils/webhook/webhookUtil.js');
-var quagga = require('quagga');
+var quagga = require(__dirname + '/quagga');
 
 
 var FBlib = require('./FBLib.js');
