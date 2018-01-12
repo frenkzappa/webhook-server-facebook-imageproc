@@ -11,7 +11,7 @@ var FBlib = require('./FBLib.js');
 
 // Global variable declaration
 var app = express();
-var port = 4000;
+var port = process.env.PORT;
 var botURL = "http://140.86.14.175:8080/botsui/(botId:C4C4224A-1D0A-4CC7-8A54-623BDC48588B)/bot/intents";
 var botID = "C4C4224A-1D0A-4CC7-8A54-623BDC48588B";
 //USEFUL LINK -----> https://developers.facebook.com/docs/messenger-platform/getting-started/webhook-setup
