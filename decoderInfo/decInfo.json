@@ -1,0 +1,20 @@
+[
+	{
+		"decoderSerial": "0001285112001000040801",
+		"manufacturer": "StarTech",
+		"model": "RT786X",
+		"img": ".\starTech"
+	},
+	{
+		"decoderSerial": "010210150301625334",
+		"manufacturer": "AVPro",
+		"model": "BS445QM",
+		"img": ".\AVpro"
+	},
+	{
+		"decoderSerial": "0001285112001000040801",
+		"manufacturer": "DVB",
+		"model": "ST712D44",
+		"img": ".\DVB"
+	}
+]
